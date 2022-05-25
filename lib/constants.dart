@@ -12,3 +12,4 @@ final kDefualtShadow = BoxShadow(
   blurRadius: 10,
   color: Color(0xFFE9E9E9).withOpacity(0.56),
 );
+

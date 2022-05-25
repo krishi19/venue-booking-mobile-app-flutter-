@@ -9,6 +9,7 @@ class HomeHeader extends StatelessWidget {
   const HomeHeader({
     Key key,
   }) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,9 @@ class HomeHeader extends StatelessWidget {
               height: 200,
               decoration: BoxDecoration(
                   gradient:
-                      LinearGradient(colors: [kPrimaryColor, kSecondaryColor])),
+                      LinearGradient(
+                      
+                        colors: [kPrimaryColor, kSecondaryColor])),
             )),
         Column(
           crossAxisAlignment: CrossAxisAlignment.center,
